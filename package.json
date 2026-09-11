@@ -1,0 +1,12 @@
+{
+  "name": "medimitra-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MediMitra - AI-Assisted Multilingual Patient Case-Taking Platform",
+  "scripts": {
+    "build": "npm --prefix frontend install && npm --prefix frontend run build",
+    "dev": "npm --prefix frontend run dev",
+    "lint": "npm --prefix frontend run lint",
+    "preview": "npm --prefix frontend run preview"
+  }
+}

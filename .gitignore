@@ -44,3 +44,5 @@ pnpm-debug.log*
 Thumbs.db
 backend/.env
 frontend/.env
+.vercel
+.env*

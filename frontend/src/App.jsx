@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import { AppProvider, useApp } from "./context/AppContext";
 import { Navbar } from "./components/common/Navbar";
 import { LandingPage } from "./pages/LandingPage";
@@ -76,6 +77,7 @@ export default function App() {
     <ErrorBoundary>
       <AppProvider>
         <MainContent />
+        <Analytics />
       </AppProvider>
     </ErrorBoundary>
   );
